@@ -1,0 +1,115 @@
+.success_section{
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background: #170929dc;
+    min-height: 100vh;
+    z-index: 10000;
+}
+
+.success_section .container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 699px;
+    width: 100%;
+    padding: 50px;
+    border: 1px solid var(--pink2);
+    border-radius: 14px;
+}
+
+.success_section .container .wrapper_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 170px;
+}
+
+.success_section_img1{
+    position: relative;
+    margin: 0 -169px 0 0;
+} 
+
+.success_section .container .wrapper_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.success_section .container .wrapper_2 .congrats{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: center;
+}
+
+.success_section .container .wrapper_2 .yes{
+    max-width: 250px;
+    width: 100%;
+    margin: 10px 0 30px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.success_section .container .wrapper_2 .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1076px) {
+    .success_section .container{
+        max-width: 317px;
+        padding: 50px;
+        border: 1px solid var(--pink2);
+        border-radius: 14px;
+    }
+    
+    .success_section .container .wrapper_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 120px;
+    }
+    
+    .success_section_img1{
+        width: 174.62px;
+        position: relative;
+        margin: 0 -109px 0 0;
+    } 
+    
+    .success_section_img2{
+        width: 184.92px ;
+    } 
+    
+    .success_section .container .wrapper_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .success_section .container .wrapper_2 .congrats{
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    
+    .success_section .container .wrapper_2 .yes{
+        max-width: 202px;
+        margin: 10px 0 30px 0;
+        font-size: 12px;
+    }
+    
+    .success_section .container .wrapper_2 .btn{
+        width: 100%;
+    }
+}
