@@ -5,15 +5,6 @@ h1{
     margin-bottom: 15px;
 }
 
-p{
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    margin-bottom: 10px;
-    line-height: 19.5px;
-    max-width: 272px;
-}
-
 input, textarea{
     border: 1px solid var(--white);
     border-radius: 4px;
@@ -23,7 +14,7 @@ input, textarea{
     height: 47px;
     background: transparent;
     color: var(--white);
-    padding: 0 1px;
+    padding: 0 20px;
 }
 
 input:hover, input:focus, input:active, textarea:hover, textarea:focus, textarea:active{
@@ -67,6 +58,16 @@ textarea{
     gap: 20px;
 }
 
+.contact_section p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 19.5px;
+    max-width: 272px;
+}
+
+
 .contact_section .container_2{
     display: flex;
     flex-direction: column;
@@ -106,7 +107,6 @@ textarea{
     input, textarea{
         max-width: 298px;
         margin-bottom: 40px;
-        padding: 0 1px;
     }
     
     .contact_section{
