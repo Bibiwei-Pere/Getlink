@@ -18,6 +18,8 @@
     
     --btn-gradient: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
     --btn-gradient2: linear-gradient(180deg, #903AFF 0%, #FE34B9 100%);
+    --btn-gradient3: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+
     --rectangle-gradient: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
 
@@ -60,13 +62,13 @@ a{
     text-decoration: none;
     color: var(--white);
     cursor: pointer;
+    font-weight: 400;
 }
 
 a:hover, a:focus, a:active{    
-    border: 1px solid transparent;
-    border-image: var(--btn-gradient2);
-    border-image-slice: 1;
-    border-radius: 4px;
+    background-image: var(--btn-gradient3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 ul{
@@ -135,6 +137,7 @@ nav{
     align-items: center;
     gap: 40px;
     height: 53px;
+    z-index: 100005;
 }
 
 .sub_nav_page a{
@@ -160,9 +163,12 @@ nav{
 
 .success:hover, .success:active, .success:focus{
     background: transparent;
-    border: 2px solid transparent;
+    border: 2px solid var(--white);
     border-image: var(--btn-gradient2);
-    border-image-slice: 1;
+    border-image-slice: 1; 
+    background-image: var(--white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
 }
 
 /* Hamburger menu */
@@ -246,7 +252,7 @@ nav{
     width: 836px;
     height: 1086px;
     opacity: 0.4;
-    z-index: 10001;
+    z-index: -101;
 }
 
 .hero_lens_2{
@@ -290,6 +296,10 @@ nav{
 
 .hero_section .countdown span{
     font-size: 14px;
+}
+
+.hero_section .success{
+    z-index: 10005;
 }
 
 /* BIG IDEA */
