@@ -28,12 +28,6 @@ label{
     margin-bottom: 10px;
 }
 
-.container{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
 input, select{
     border: 1px solid var(--white);
     border-radius: 4px;
@@ -72,6 +66,12 @@ option{
     gap: 20px;
     min-height: 100vh;
     padding: 200px 131px 100px;
+}
+
+.register_section .container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .register_section .my_form{
