@@ -275,6 +275,7 @@ nav{
 }
 
 .hero_section .countdown{
+    display: flex;
     width: 291px;
     height: 85px;
     margin-top: 40px;
