@@ -206,6 +206,10 @@ nav{
     padding-bottom: 15px;
 }
 
+.hero_section .ignite span{
+    display: none;
+    }
+
 .hero_section .container{
     padding-top: 60px;
     display: flex;
