@@ -1,9 +1,11 @@
 @media (max-width: 1076px) {
     /* RESET */
     body{
-        overflow-x: hidden !important;
+        overflow-x: hidden;
         width: 100%;
         padding: 0 20px;
+        margin: auto;
+        border: 2px solid white;
     }
     
     h1{
@@ -199,13 +201,13 @@
     }
     
     .hero_lens_1{
-    position: absolute;
-    left: -10px;
-    top: -20px;
-    width: 396px;
-    height: 442px;
-    opacity: 0.5;
-    z-index: -1000;
+        position: absolute;
+        left: -10px;
+        top: -20px;
+        width: 396px;
+        height: 442px;
+        opacity: 0.5;
+        z-index: -1000;
     }
     
     .hero_lens_2{
@@ -276,6 +278,9 @@
         align-items: center;
         padding: 5px 0px;
         gap: 0px;
+        background-image: url("/images/star/dark.png");
+        background-repeat: no-repeat;
+        background-position: 370px 170px;
     }
     
     .rules_section_lens{
@@ -289,7 +294,7 @@
     
     .rules_section_lens2{
         position: absolute;
-        margin: 150px 0 0 250px;
+        margin: 350px 0 0 450px;
     }
     
     .rules_section div{
@@ -301,8 +306,7 @@
     }
     
     .rules_section h2{
-        max-width: 170px;
-        width: 100%;
+        width: 170px;
         height: 86px;
     }
     
@@ -809,7 +813,7 @@
     
     /* FOOTER */
     footer{
-        padding: 70px 25px;
+        padding: 70px 10px;
         background-image: url("/images/star/white.png");
         background-position: 280px 290px;
     }
@@ -889,7 +893,7 @@
     
     .footer_wrapper_2 div{
         gap: 15px;
-        max-width: 137px;
+        width: 100%;
     }
     
     .footer_wrapper_2 div p{
