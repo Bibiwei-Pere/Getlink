@@ -463,7 +463,8 @@
     }
     
     .timeline_section h2, .timeline_section p{
-        width: 292px;
+        max-width: 202px;
+        width: 100%;
         text-align: center;
         margin: 20px auto;
     }
@@ -472,7 +473,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-top: 30px;
+        padding-top: 40px;
         background-image: url("/images/star/white.png");
         background-repeat: no-repeat;
         background-position: right 360px;
