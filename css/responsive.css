@@ -438,9 +438,8 @@
         background-repeat: no-repeat;
         background-position: 240px top;
         display: flex;
-        gap: 100px;
-        max-width: 150px;
-        width: 100%;
+        gap: 50px;
+        max-width: 250px;
         margin: auto;
     }
     
