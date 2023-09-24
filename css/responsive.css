@@ -276,9 +276,6 @@
         align-items: center;
         padding: 5px 0px;
         gap: 0px;
-        background-image: url("/images/star/dark.png");
-        background-repeat: no-repeat;
-        background-position: 370px 170px;
     }
     
     .rules_section_lens{
@@ -292,7 +289,7 @@
     
     .rules_section_lens2{
         position: absolute;
-        margin: 0px 0 0 250px;
+        margin: 150px 0 0 250px;
     }
     
     .rules_section div{
@@ -304,7 +301,8 @@
     }
     
     .rules_section h2{
-        width: 170px;
+        max-width: 170px;
+        width: 100%;
         height: 86px;
     }
     
