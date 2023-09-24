@@ -199,13 +199,7 @@
     }
     
     .hero_lens_1{
-        position: absolute;
-        left: -10px;
-        top: -20px;
-        width: 396px;
-        height: 442px;
-        opacity: 0.5;
-        z-index: -1000;
+        display: none;
     }
     
     .hero_lens_2{
