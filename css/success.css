@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-@media (max-width: 1076px) {
+@media (max-width: 876px) {
     .success_section .container{
         max-width: 317px;
         padding: 50px;
