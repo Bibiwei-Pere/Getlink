@@ -28,10 +28,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
 }
 
 body{
+    font-size: 14px;
+    line-height: 27.5px;
+    color: var(--white);
     background: var(--bg-dark);
     font-family: 'Montserrat', sans-serif;
 }
@@ -50,12 +52,6 @@ h2{
     color: var(--white);
     font-family: 'Clash Display', sans-serif;
     font-size: 32px;
-}
-
-p{
-    font-size: 14px;
-    line-height: 27.5px;
-    color: var(--white);
 }
 
 a{
@@ -188,6 +184,7 @@ nav{
 .hero_section{
     padding: 200px 0 0 131px;
     min-height: 100vh;
+    
 }
 
 .hero_section .ignite{
@@ -203,12 +200,9 @@ nav{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 190px;
+    
     padding-bottom: 15px;
 }
-
-.hero_section .ignite span{
-    display: none;
-    }
 
 .hero_section .container{
     padding-top: 60px;
@@ -218,6 +212,7 @@ nav{
 }
 
 .hero_section .container .wrapper{
+    
     width: 50%;
 }
 
@@ -246,6 +241,7 @@ nav{
     width: 100%;
     max-height: 715px;
     min-height: 515px;
+    
     height: 100%;
 }
 
@@ -253,9 +249,11 @@ nav{
     position: absolute;
     left: -110px;
     top: -290px;
-    width: 836px;
+    max-width: 836px;
+    width: 100%;
     height: 1086px;
     opacity: 0.4;
+    
     z-index: -101;
 }
 
@@ -265,6 +263,7 @@ nav{
     top: 0;
     width: 951px;
     height: 994px;
+    
     opacity: 0.5;
 } 
 
@@ -274,6 +273,7 @@ nav{
     top: 197px;
     max-width: 607px;
     width: 100%;
+    
     height: 530px;
 } 
 
@@ -281,6 +281,7 @@ nav{
     width: 552px;
     font-size: 20px;
     margin-bottom: 45px;
+    
     line-height: 33.2px;
 }
 
@@ -288,6 +289,7 @@ nav{
     display: flex;
     width: 291px;
     height: 85px;
+    
     margin-top: 40px;
 }
     
@@ -303,7 +305,7 @@ nav{
 }
 
 .hero_section .success{
-    z-index: 105;
+    z-index: 10005;
 }
 
 /* BIG IDEA */
@@ -354,17 +356,17 @@ nav{
     align-items: center;
     padding: 0px 131px;
     gap: 80px;
-    background-image: url("/images/star/dark.png");
-    background-repeat: no-repeat;
-    background-position: 370px 170px;
     border-top: 1px solid var(--pink3);
+    
     border-bottom: 1px solid var(--pink3);
 }
 
 .rules_section_lens{
     position: absolute;
     left: -220px;
+    
     opacity: 0.4;
+    width: 100%;
 }
 
 .rules_section_lens2{
@@ -373,19 +375,23 @@ nav{
 }
 
 .rules_section div{
+    
     width: 50%;
 }
 
 .rules_section h2{
     width: 170px;
+    
     margin-bottom: 15px;
 }
 
 .rules_section p{
+    
     max-width: 535px;
 }
 
 .rules_section_img1{
+    
     max-width: 664px;
     width: 100%;
 }
@@ -512,6 +518,7 @@ nav{
     display: flex;
     gap: 100px;
     max-width: 350px;
+    width: 100%;
     margin: auto;
 }
 
@@ -631,6 +638,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     background: var(--bg-very-dark);
 }
 
@@ -643,16 +651,19 @@ nav{
     height: 100%;
     background-image: url("/images/star/white.png");
     background-repeat: no-repeat;
+    
     background-position: 410px 20px;
 } 
 
 .prize_section .wrapper{
     display: flex;
+    
     width: 100%;
 } 
 
 .prize_section .wrapper .sub_wrapper_1a{
     max-width: 360px;
+    
     width: 50%;
 } 
 
@@ -670,6 +681,7 @@ nav{
     max-width: 360px;
     background-image: url("/images/star/gradient.png");
     background-repeat: no-repeat;
+    
     background-position: 290px 0px;
 } 
 
@@ -678,6 +690,7 @@ nav{
     height: 100%;
     background-image: url("/images/star/gradient.png");
     background-repeat: no-repeat;
+    
     background-position: top;
 } 
 
@@ -686,6 +699,7 @@ nav{
     width: 100%;
     background-image: url("/images/star/white.png");
     background-repeat: no-repeat;
+    
     background-position: 60px bottom;
 }
 
@@ -698,6 +712,7 @@ nav{
     height: 482px;
     margin-top: -150px;
     background-image: url("/images/star/gradient.png");
+    
     background-repeat: no-repeat;
     background-position: 250px 0px;
 }
