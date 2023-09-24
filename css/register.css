@@ -118,7 +118,7 @@ option{
     width: 40%;
 }
 
-@media (max-width: 1076px) {
+@media (max-width: 876px) {
     h1{
         font-size: 15px;
         margin-bottom: 170px;
