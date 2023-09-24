@@ -15,6 +15,7 @@
     h2{
         font-size: 20px;
         text-align: center;
+        line-height: 23.58px;
     }
     
     p{
@@ -461,13 +462,6 @@
         background-repeat: no-repeat;
         background-position: 270px 300px;
     }
-    
-    .timeline_section h2, .timeline_section p{
-        max-width: 202px;
-        width: 100%;
-        text-align: center;
-        margin: 20px auto;
-    }
 
     .timeline_section .container_2{
         display: flex;
@@ -484,24 +478,28 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        gap: 10px;
+        width: 100%;     
+        background-color: transparent;
+        height: auto;
+    }
+
+    .timeline_section .container_2 .timeline_line .num{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         border-left: 3px solid var(--pink2);
         background-color: transparent;
-        padding-top: 50px;
-        margin-bottom: 50px;
-        height: 110px;
+        padding-bottom: 10px;
     }
 
     .timeline_date{
-        position: relative;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 100%;
         background-color: transparent;
-        margin-left: -30px;
-        margin-top: 20px;
+        margin: 0 0 20px -20px;
     }
 
     .timeline_section .container_2 h2{
@@ -512,7 +510,7 @@
         padding-left: 20px;
     }
 
-    .timeline_section .container_2 p{
+    .timeline_section .containr_2 p{
         width: 100%;
         margin: 0;
         text-align: left;
