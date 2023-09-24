@@ -1,4 +1,4 @@
-@media (max-width: 876px) {
+@media (max-width: 1076px) {
     /* RESET */
     body{
         overflow-x: hidden;
@@ -14,8 +14,8 @@
     
     h2{
         font-size: 20px;
-        text-align: center;
         line-height: 23.58px;
+        text-align: center;
     }
     
     p{
@@ -128,7 +128,7 @@
         background-size: 0;
         padding-bottom: 10px;
     }
-
+    
     .hero_section .ignite span{
         display: flex;
         flex-direction: column;
@@ -136,16 +136,16 @@
         align-items: center;
         height: 10px;
     }
-
+    
     .hero_section .ignite span img{
-        max-width: 100px;
-        margin-top: -10px;
+        width: 100px;
         height: 10px;
+        margin-top: -4px;
     }
-
-    .hero_section .ignite p{
+    
+    .hero_section .ignite p {
         display: none;
-    }   
+    }
     
     .hero_section .container{
         padding-top: 160px;
@@ -220,9 +220,9 @@
     
     .hero_lens_1{
         position: absolute;
-        left: -10px;
+        left: 0px;
         top: -20px;
-        max-width: 326px;      
+        max-width: 326px;
         height: 442px;
         opacity: 0.5;
         z-index: -1000;
@@ -240,7 +240,7 @@
         position: absolute;
         left: 0;
         top: 464.77px;
-        max-width: 320.07px;
+        max-width: 338.07px;
         margin: auto;
         height: 324.89px;
     } 
@@ -306,7 +306,7 @@
         right: 0;
         left: 0;
         top: 1649px;
-        max-width: 324px;
+        max-width: 404px;
         height: 435px;
     }
     
@@ -396,7 +396,7 @@
         padding: 50px 20px;
         background-image: url("/images/star/large.png");
         background-repeat: no-repeat;
-        background-position: 100px 250px;
+        background-position: 10px 20px;
     }
     
     .faq_section .wrapper{
@@ -494,10 +494,10 @@
     .timeline_section .container_2 .timeline_line{
         display: flex;
         flex-direction: column;
+        gap: 10px;
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        width: 100%;     
+        width: 100%;
         background-color: transparent;
         height: auto;
     }
@@ -528,7 +528,7 @@
         padding-left: 20px;
     }
 
-    .timeline_section .containr_2 p{
+    .timeline_section .container_2 p{
         width: 100%;
         margin: 0;
         text-align: left;
@@ -544,7 +544,7 @@
         height: 29.32px;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px;
     }
     
@@ -609,7 +609,7 @@
         position: absolute;
         right: 0;
         left: 0;
-        max-width: 324px;
+        max-width: 404px;
         height: 435px;
         opacity: 0.6;
         height: 482px;
@@ -828,7 +828,7 @@
     
     /* FOOTER */
     footer{
-        padding: 70px 25px;
+        padding: 70px 10px;
         background-image: url("/images/star/white.png");
         background-position: 280px 290px;
     }
