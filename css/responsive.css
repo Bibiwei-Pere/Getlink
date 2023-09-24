@@ -1,7 +1,7 @@
 @media (max-width: 1076px) {
     /* RESET */
     body{
-        overflow-x: hidden !important;
+        overflow-x: hidden;
         width: 100%;
         padding: 0 20px;
         margin: auto;
@@ -203,7 +203,7 @@
         position: absolute;
         left: -10px;
         top: -20px;
-        width: 396px;
+        max-width: 326px;      
         height: 442px;
         opacity: 0.5;
         z-index: -1000;
@@ -221,7 +221,7 @@
         position: absolute;
         left: 0;
         top: 464.77px;
-        max-width: 338.07px;
+        max-width: 320.07px;
         margin: auto;
         height: 324.89px;
     } 
@@ -287,13 +287,13 @@
         right: 0;
         left: 0;
         top: 1649px;
-        width: 404px;
+        max-width: 324px;
         height: 435px;
     }
     
     .rules_section_lens2{
         position: absolute;
-        margin: 350px 0 0 450px;
+        margin: 0px 0 0 -110px;
     }
     
     .rules_section div{
@@ -593,7 +593,7 @@
         position: absolute;
         right: 0;
         left: 0;
-        width: 404px;
+        max-width: 324px;
         height: 435px;
         opacity: 0.6;
         height: 482px;
