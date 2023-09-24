@@ -102,6 +102,7 @@
       .close2 {
         position: absolute;
         margin-left: -6px;
+        margin-top: 2px;
       } 
     
       .close {
