@@ -257,7 +257,6 @@ nav{
     width: 100%;
     height: 1086px;
     opacity: 0.4;
-    
     z-index: -101;
 }
 
@@ -267,7 +266,6 @@ nav{
     top: 0;
     width: 951px;
     height: 994px;
-    
     opacity: 0.5;
 } 
 
@@ -277,7 +275,6 @@ nav{
     top: 197px;
     max-width: 607px;
     width: 100%;
-    
     height: 530px;
 } 
 
@@ -309,7 +306,10 @@ nav{
 }
 
 .hero_section .success{
-    z-index: 10005;
+    z-index: 105;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* BIG IDEA */
