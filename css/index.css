@@ -537,7 +537,8 @@ nav{
 }
 
 .timeline_section h2, .timeline_section p{
-    width: 346px;
+    max-width: 346px;
+    width: 100%;
     text-align: center;
     margin: 20px auto;
 }
