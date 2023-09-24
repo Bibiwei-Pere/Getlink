@@ -7,7 +7,7 @@ This is a solution to the Getlinked tech hackathon challenge
 
 ### Links
 
-- [Live Site URL](https://getlinked01.netlify.app)
+- [Live Site URL](https://getlinked001.netlify.app)
 
 ### Built with
 
