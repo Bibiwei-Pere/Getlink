@@ -1,4 +1,4 @@
-@media (max-width: 1076px) {
+@media (max-width: 876px) {
     /* RESET */
     body{
         overflow-x: hidden;
@@ -46,7 +46,7 @@
     }
     
     .nav_logo{
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .sub_nav_page{
@@ -812,7 +812,7 @@
     
     /* FOOTER */
     footer{
-        padding: 70px 10px;
+        padding: 70px 25px;
         background-image: url("/images/star/white.png");
         background-position: 280px 290px;
     }
