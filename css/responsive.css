@@ -125,9 +125,27 @@
         right: 0;
         top: 112px;
         font-size: 16px;
-        background-size: 115px;
+        background-size: 0;
         padding-bottom: 10px;
     }
+
+    .hero_section .ignite span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+    }
+
+    .hero_section .ignite span img{
+        max-width: 100px;
+        margin-top: -10px;
+        height: 10px;
+    }
+
+    .hero_section .ignite p{
+        display: none;
+    }   
     
     .hero_section .container{
         padding-top: 160px;
