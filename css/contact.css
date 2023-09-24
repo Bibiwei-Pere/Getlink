@@ -14,7 +14,7 @@ input, textarea{
     height: 47px;
     background: transparent;
     color: var(--white);
-    padding: 0 20px;
+    padding: 20px;
 }
 
 input:hover, input:focus, input:active, textarea:hover, textarea:focus, textarea:active{
