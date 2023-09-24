@@ -835,6 +835,7 @@
     
     footer .container{
         gap: 50px;
+        margin-bottom: 0;
     }
     
     footer .wrapper_1{
