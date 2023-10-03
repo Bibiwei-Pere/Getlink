@@ -3,7 +3,7 @@
 This is a solution to the Getlinked tech hackathon challenge
 
 ### Screenshot
-
+![Getlinked-Landing-Page_11zon](https://github.com/Bibiwei-Pere/Getlink/assets/106984663/754a6709-cea2-42eb-b14c-0f7991f60be0)
 
 ### Links
 
